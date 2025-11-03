@@ -135,7 +135,7 @@ Tabela associativa que registra qual instituição recebeu cada doação.
 
 ## Criação de base de dados em Docker
 
-``bash
+```bash
 docker run -d --name mysql-teste \
   -e MYSQL_ROOT_PASSWORD=root \
   -e MYSQL_DATABASE=teste \
